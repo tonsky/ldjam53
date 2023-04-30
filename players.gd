@@ -3,7 +3,7 @@ extends Node2D
 @onready var first = $first
 @onready var second = $second
 @onready var cargo = $cargo
-@export var speed = 200.0
+@export var speed = 100.0
 @export var half_dist = 32.0
 var epsilon = 10.0
 

@@ -122,7 +122,7 @@ radius = 7.0
 script = ExtResource("1_3au2k")
 
 [node name="cargo" type="CharacterBody2D" parent="."]
-position = Vector2(32, 2.08165e-12)
+position = Vector2(2.08165e-12, 2.08165e-12)
 rotation = -1.5708
 collision_layer = 8
 collision_mask = 3
@@ -136,7 +136,7 @@ position = Vector2(-7.23998e-06, 2)
 shape = SubResource("RectangleShape2D_e5val")
 
 [node name="first" type="CharacterBody2D" parent="."]
-position = Vector2(-16, -16)
+position = Vector2(-336, 2.08165e-12)
 collision_mask = 15
 
 [node name="anim_first" type="AnimatedSprite2D" parent="first"]
@@ -150,7 +150,7 @@ frame_progress = 0.698535
 shape = SubResource("CircleShape2D_nbtjo")
 
 [node name="second" type="CharacterBody2D" parent="."]
-position = Vector2(-16, 16)
+position = Vector2(-176, 2.08165e-12)
 collision_mask = 15
 
 [node name="anim_second" type="AnimatedSprite2D" parent="second"]
